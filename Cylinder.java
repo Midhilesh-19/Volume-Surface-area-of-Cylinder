@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class Ch44 {
+public class Cylinder {
     private int radius;
     private int height;
     //using constructor
 
-    public Ch44(int radius, int height) {
+    public Cylinder(int radius, int height) {
         this.radius = radius;
         this.height = height;
     }
@@ -45,7 +45,7 @@ public class Ch44 {
     }
 
     public static void main(String[] args) {
-        Ch44 cylinder = new Ch44(14,10);
+        Cylinder cylinder = new Cylinder(14,10);
 //        Scanner setRad =new Scanner(System.in);
 //        Scanner setHht =new Scanner(System.in);
 
